@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>My Web</title>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script
+      src="https://kit.fontawesome.com/fe26cc9556.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <!-- <input type="checkbox" id="check" /> -->
+        <div class="checkbtn active">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo">
+          <a href="#main_section"><i class="fa-solid fa-ghost"></i></a>
+        </div>
+        <ul class="list show_menu">
+          <li><a href="#main_section">Home</a></li>
+          <li><a href="#about_me">About me</a></li>
+          <li><a href="#technologies">Technologies</a></li>
+          <li><a href="#contact_me">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main_section">
+      <section id="about_me" class="about">
+        <div class="about-container">
+          <div class="intro">
+            <h1>About me</h1>
+            <span
+              ><b>Lorem ipsum dolor sit amet consectetur adipisicing.</b></span
+            >
+            <p>
+              <i>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+                assumenda sit blanditiis accusamus et debitis mollitia quam
+                saepe perspiciatis! Ducimus?Lorem, ipsum
+              </i>
+            </p>
+          </div>
+          <div class="image-container">
+            <img class="about_me" src="./images/foto7.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <img class="image" src="./images/foto6.jpg" alt="" />
+      <section id="technologies" class="Technologies">
+        <div class="title-container">
+          <h2 class="tech-title">Technologies</h2>
+        </div>
+        <div class="card-container">
+          <div class="card">
+            <i class="fa-brands fa-html5"></i>
+            <p><span>HTML</span></p>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum minus perspiciatis ipsa, natus temporibus facere iure
+              ducimus. Nihil, voluptate officia.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-css3-alt"></i>
+            <p><span>CSS</span></p>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum minus perspiciatis ipsa, natus temporibus facere iure
+              ducimus. Nihil, voluptate officia.
+            </p>
+          </div>
+          <div class="card">
+            <i class="fa-brands fa-js"></i>
+            <p><span>Javascript</span></p>
+            <p class="card-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum minus perspiciatis ipsa, natus temporibus facere iure
+              ducimus. Nihil, voluptate officia.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div id="contact_me" class="footer-container">
+        <h4><u>Contáctame</u></h4>
+
+        <div class="form-container">
+          <form action="" method="get" id="form" class="form">
+            <div class="form-item">
+              <label for="name">Name: </label>
+              <input id="name" type="text" placeholder="Write your full name" />
+            </div>
+
+            <div class="form-item">
+              <label for="email">Email: </label>
+              <input id="email" type="email" placeholder="example@mail.com" />
+            </div>
+
+            <div class="form-item">
+              <label class="message" for="mensaje">Mensaje: </label>
+              <textarea id="mensaje" placeholder="Write a message"></textarea>
+            </div>
+            <div class="form-item">
+              <button type="submit">Enviar</button>
+            </div>
+            <p class="alertas" id="alertas">
+              <!-- Tu mensaje fue enviado exitosamente -->
+            </p>
+          </form>
+        </div>
+
+        <ul class="footer">
+          <div class="icon">
+            <i class="fa-brands fa-linkedin"></i>
+            <li>LinkedIn</li>
+          </div>
+          <hr />
+          <div class="icon">
+            <i class="fa-brands fa-facebook"></i>
+            <li>Facebook</li>
+          </div>
+          <hr />
+          <div class="icon">
+            <i class="fa-brands fa-instagram"></i>
+            <li>Instagram</li>
+          </div>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

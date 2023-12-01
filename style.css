@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+li {
+  list-style: none;
+}
+h1 {
+  padding-bottom: 0.5em;
+}
+
+.logo {
+  font-size: 20px;
+}
+.navbar {
+  padding: 0.8em;
+  background-color: rgba(13, 71, 78, 0.938);
+  color: white;
+  font-size: 17px;
+  display: flex;
+  width: 100%;
+}
+
+.list {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.about {
+  margin: 4em auto;
+}
+.about-container {
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  margin: 1em auto;
+}
+.intro {
+  text-align: end;
+  padding: 1rem 2rem;
+  /* background-image: url("./images/foto5.jpg");
+  background-repeat: no-repeat; */
+  background-size: 100% 100%;
+  /* background-size: cover; */
+  color: rgba(13, 71, 78, 0.938);
+  /* margin-bottom: 1rem; */
+}
+p {
+  font-size: 17px;
+  padding-top: 1.5em;
+  text-align: end;
+}
+.about_me {
+  display: block;
+  width: 100%;
+  border-radius: 1em;
+  margin: 0 auto;
+}
+.image {
+  width: 100%;
+}
+.Technologies {
+  background-image: url("./images/foto4.jpg");
+  padding-bottom: 1em;
+  margin-bottom: 0.2rem;
+}
+.title-container {
+  padding: 2em;
+  margin: 0;
+}
+.tech-title {
+  /* margin: 0 auto; */
+  text-align: center;
+  padding: 0.5rem 1rem;
+  /* color: rgba(13, 71, 78, 0.938); */
+  /* background-color: white; */
+  color: white;
+  /* width: 200px; */
+  border-radius: 0.8rem;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%x;
+  gap: 1rem;
+  margin: 1em 0 2em 0;
+}
+.card .fa-brands {
+  font-size: 10em;
+  background-color: rgba(243, 248, 248, 0.993);
+  border-radius: 0.1em;
+  width: 100%;
+  text-align: center;
+  color: black;
+}
+.card {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(6, 65, 141, 0.76);
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+  border-radius: 1em;
+  color: white;
+  margin: 1em;
+  box-shadow: 1px 1px 10px 3px rgb(235, 237, 240);
+}
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease;
+  box-shadow: 1px 1px 10px 10px rgb(235, 237, 240);
+}
+.card-info {
+  text-align: center;
+  padding: 1em 2em;
+}
+
+.footer-container {
+  background-color: rgb(9, 53, 54);
+}
+.footer-container h4 {
+  color: rgba(242, 246, 247, 0.938);
+  padding-top: 1.5rem;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+.footer {
+  padding: 20px;
+  color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+}
+.icon {
+  padding-top: 0.5em;
+  text-align: center;
+}
+.footer .icon li {
+  padding-top: 0.5em;
+  font-size: 18px;
+}
+
+.form-container {
+  background-color: rgba(29, 126, 190, 0.829);
+  width: 50%;
+  border-radius: 0.5rem;
+  padding: 1.5rem 0rem;
+  padding-left: 0;
+  margin: 2rem auto;
+  box-shadow: -1px 1px 5px 3px rgba(233, 231, 231, 0.801);
+}
+.form {
+  width: 65%;
+  margin: 0 auto;
+  padding-right: 0rem;
+}
+
+.form-item {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border: 0;
+  margin: 1rem 0;
+  width: 100%;
+  color: white;
+}
+
+.form-item input[type="text"],
+.form-item input[type="email"] {
+  text-align: initial;
+  padding: 0.2rem 0.5em;
+  border: none;
+  border-radius: 3px;
+  width: 80%;
+}
+
+.form-item label {
+  text-align: right;
+  padding-right: 1rem;
+  width: 80px;
+}
+
+.form-item textarea {
+  font-size: 14px;
+  background-color: #faf8f8;
+  width: 80%;
+  border: 0;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+  min-height: 150px;
+  resize: none;
+}
+.form-item button {
+  text-align: end;
+  border: none;
+  background-color: white;
+  padding: 0.6rem 1rem;
+  font-size: 15px;
+  border-radius: 0.6rem;
+  margin-left: auto;
+  margin-bottom: 0;
+}
+.form-item button:hover {
+  /* background-color: rgba(67, 155, 167, 0.829);
+  background-color: rgb(234, 242, 243); 
+  color: white;*/
+  box-shadow: 1px 1px 5px 3px rgba(233, 231, 231, 0.801);
+  /* box-shadow: 1px 1px 5px 3px rgba(226, 226, 17, 0.801); */
+  transform: scale(1.05);
+  transition: all 0.4s ease;
+}
+.alertas {
+  text-align: end;
+  color: white;
+  padding: 0.5rem 0;
+}
+
+#check {
+  display: none;
+}
+.checkbtn {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  .about-container {
+    flex-direction: column;
+  }
+}
+/* Estilos para pantallas más pequeñas (hasta 768px) */
+@media (max-width: 768px) {
+  /* Aquí puedes escribir los estilos que se aplicarán en pantallas más pequeñas */
+
+  .navbar {
+    position: fixed;
+    top: 0;
+    display: inline-block;
+    background-color: rgba(13, 71, 78, 0.938);
+  }
+
+  /* #check {
+    display: block;
+    left: 0;
+  } */
+  .checkbtn {
+    display: block;
+    float: right;
+    color: rgb(224, 224, 126);
+    cursor: pointer;
+    margin-right: 30px;
+  }
+  .active {
+    color: rgb(252, 252, 251);
+  }
+
+  .list {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(13, 71, 78, 0.938);
+    text-align: center;
+    top: 50px;
+    left: 100%;
+    transform: translateX(-100%);
+    transition: all 0.6s ease;
+  }
+  .show_menu {
+    /* left: 0; */
+    /* display: block; */
+    transform: translateX(0%);
+  }
+
+  /* #check:checked ~ .list {
+    left: 0;
+    display: block;
+  } */
+
+  #check:checked ~ .checkbtn {
+    color: rgb(224, 224, 126);
+  }
+
+  .list li {
+    margin: 1em auto;
+    padding: 1em;
+  }
+  .list li:hover {
+    background-color: rgb(224, 224, 126);
+    transition: background-color 0.5s ease;
+    color: rgba(13, 71, 78, 0.938);
+  }
+  .intro {
+    padding: 1em 0;
+    text-align: center;
+  }
+  .intro p {
+    text-align: center;
+  }
+  /* .about-container {
+        flex-direction: column;
+      } */
+  .card-container {
+    flex-direction: column;
+    margin: 1rem auto;
+  }
+  .card {
+    width: 60%;
+    margin: 1em auto;
+  }
+  .footer {
+    flex-direction: column;
+    gap: 0;
+  }
+  .footer .icon li {
+    padding-bottom: 0.8rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro {
+    font-size: 22px;
+  }
+  .intro p {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 1580px) {
+  .intro p {
+    font-size: 22px;
+  }
+}
